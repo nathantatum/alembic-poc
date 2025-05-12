@@ -1,0 +1,38 @@
+# macOS system files
+.DS_Store
+
+# Ignore the Alembic SQLite database (if using SQLite for development)
+*.sqlite3
+*.db
+
+# Ignore Python bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+.env/
+*.env
+
+# Ignore Alembic migration history cache
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Ignore coverage and test artifacts
+.coverage
+htmlcov/
+*.cover
+*.pytest_cache/
